@@ -1,0 +1,3 @@
+<% settings.articles.each dpo |article| %>
+  <%= erb :post, :locals => { :article => article } %>
+<% end %>
